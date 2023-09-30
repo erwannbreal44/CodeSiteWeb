@@ -1,0 +1,123 @@
+body {
+	background-color: #F6BDB1;
+}
+
+h1 {
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+	font-style: italic;
+	color: navy;
+}
+
+
+fieldset {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	border: 1px maroon solid;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+legend {
+	border: 1px maroon solid;
+	padding: 1px 2px 1px 2px;
+	background-color: white;
+	text-align: center;
+}
+
+.melange {
+	color: navy;
+	font-size: medium;
+	background-color: gray;
+	margin: 5px;
+	padding: 5px;
+}
+
+
+#score {
+	color: maroon;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 5px 15px 5px 5px;
+}
+
+
+#jeu {
+	color: navy;
+	text-align: center;
+}
+
+.piece {
+	width: 80px;
+	height: 80px;
+	font-size: 1cm;
+	font-weight: bold;
+}
+
+.oui {
+	background-color: #C96;
+	color: maroon;
+	border-top: 6px #CCC solid;
+	border-right: 6px #666 solid;
+	border-bottom: 6px #333 solid;
+	border-left: 6px #999 solid;
+}
+
+.non {
+	background-color: #FC9;
+	color: #FC9;
+	border-top: 6px #333 solid;
+	border-right: 6px #999 solid;
+	border-bottom: 6px #CCC solid;
+	border-left: 6px #666 solid;
+}
+
+/* Style des ŽlŽments de contr™le du jeu */
+#controle {
+	text-align: center;
+	margin: 5px;
+}
+
+/* Style de la console de sortie */
+.console {
+	text-align: center;
+	color: maroon;
+	margin: 5px;
+	font-size: larger;
+}
+
+#console { font-style: italic; }
+.fini { color: navy; }
+.vert { background-color: #6F6; }
+
+.w3c {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px aqua;
+  }
+  
+  .button:hover {background-color: black}
+  
+  .button:active {
+    background-color: #80FD67;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
