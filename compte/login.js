@@ -3,8 +3,8 @@ function Login(){
 	var username=pseudo.toLowerCase();
 	var password=document.login.password.value;
 	password=password.toLowerCase();
-	if (pseudo=="4dm1n" && password=="sh.org") {
-	    alert("Bon Mot de passe !");
+	if (pseudo=="admin" && password=="erwann") {
+	    alert("Bon Mot de passe ! lien page admin : admin/xgshhfuhfizfhfizf.html");
 	} else { 
 	    alert("Mauvais mot de passe"); 
 	}
